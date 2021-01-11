@@ -13,7 +13,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -28,22 +28,22 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                            <a class="nav-link " href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
+<!-- first section -->
     <section class="container mt-5 bg-light">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide panda-slide " data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                     <div class="row d-flex align-items-center p-5">
@@ -102,8 +102,8 @@
 
 
     <main  class="container">
-        <section class="container overflow-hidden mt-5">
-            <div class="row gx-5">
+        <section class="container overflow-hidden mt-5 categories">
+            <div class="row g-5">
               <div class="col">
                <div class="p-3 rounded background d-flex align-items-center justify-content-around">
                    <h1 class="text-white">Watch</h1>
@@ -123,18 +123,19 @@
             </div>
         </section>
 
-
-        <section class="mt-5">
+<!-- second-section -->
+        <section id="shoes" class="mt-5">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100 shadow-lg">
+                  <div class="card test h-100 shadow-lg">
                     <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Supply 350</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo veritatis porro maiores autem, earum praesentium.</p>
+                      <h5>$600</h5>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer  test">
                         <button class="btn btn-danger">Buy Now>></button>
                     </div>
                   </div>
@@ -144,9 +145,10 @@
                     <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Nike 360</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto omnis incidunt rem! Unde, saepe?</p>
+                      <h5>$500</h5>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer ">
                         <button class="btn btn-danger">Buy Now>></button>
                     </div>
                   </div>
@@ -156,7 +158,8 @@
                     <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Red Air max</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, temporibus illum. Laboriosam consectetur quo dolorum.</p>
+                      <h5>$420</h5>
                     </div>
                     <div class="card-footer">
                       <button class="btn btn-danger">Buy Now>></button>
@@ -166,8 +169,8 @@
               </div>
         </section>
 
-
-        <section class="mt-5">
+<!-- third-section -->
+        <section id="backpack" class="mt-5">
             <h1>backpack</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -213,13 +216,13 @@
         </section>
 
 
-
-        <section style="height: 300px; background-color: rgba(124, 69, 69, 0.644);" class="  d-flex justify-content-center align-items-center mt-5 rounded " >
+<!-- forth-section -->
+        <section style="height: 300px; background-color: rgba(124, 69, 69, 0.644);" class="  d-flex justify-content-center align-items-center mt-5 rounded " id="subscribe" >
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <h5>Get update on sale,special and more</h5>
                 <input type="text">
-                <button class="bg-danger">SUBMIT</button>
+                <button class="btn btn-danger">SUBMIT</button>
 
             </div>
         </section>

@@ -1,3 +1,16 @@
 .background{
     background-color: rgb(177, 100, 100);
 }
+
+
+
+.categories img{
+    width: 120px;
+    
+}
+
+
+.panda-slide .carousel-item{
+    background-color: #fceae8;
+    border-radius: 1em;
+}
